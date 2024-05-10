@@ -171,6 +171,26 @@
 /* ----------------------------------------------------------------- Main content ----------------------------------------------------------------- */
 .main-content {
     background-color: #e2e8f0;
+
+    display: grid;
+    grid-template-columns: 2.3fr 1fr
+}
+
+.main-left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 1px solid blue;
 }
 
 
+.main-left > p,
+.main-right > p{
+    border: 1px solid blue;
+}
+
+.main-right {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
