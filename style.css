@@ -77,6 +77,12 @@
     grid-template-columns: 1.7fr 1fr;
 }
 
+.header-top-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .header-top-left > img {
     width: 3%;
     height: auto;
