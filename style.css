@@ -147,6 +147,26 @@
     height: auto;
 }
 
+/* Header bottom right */
+.header-bottom-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.btn {
+    background-color: #1992d4; /* blue */
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.8rem 2.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+
+}
+
 /* Main content */
 .main-content {
     background-color: #18ffff;
