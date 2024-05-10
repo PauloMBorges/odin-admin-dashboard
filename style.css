@@ -71,7 +71,7 @@
 
 /* Header */
 .header {
-    background-color: #ff8484;
+    background-color: white;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1.7fr 1fr;
@@ -81,11 +81,22 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+    margin-left: 2rem;
 }
 
 .header-top-left > img {
     width: 3%;
     height: auto;
+}
+
+#search {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 16px;
+    width: 80%;
+    background-color: #e2e8f0; /* off white */
+    padding: 10px;
 }
 
 
