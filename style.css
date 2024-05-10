@@ -127,8 +127,24 @@
 }
 
 /* Header bottom left */
+
 .header-bottom-left {
-    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.greeting > p {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.icon-big {
+    border-radius: 50px;
+    width: 5rem;
+    height: auto;
 }
 
 /* Main content */
