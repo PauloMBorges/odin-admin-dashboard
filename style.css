@@ -126,6 +126,11 @@
     border-radius: 50px;
 }
 
+/* Header bottom left */
+.header-bottom-left {
+    border: 1px solid black;
+}
+
 /* Main content */
 .main-content {
     background-color: #18ffff;
