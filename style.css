@@ -1,4 +1,4 @@
-/* CSS Reset */
+/* -----------------------------------------------------------------  CSS Reset -----------------------------------------------------------------  */
 *,
 *::before,
 *::after {
@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-/* Fonts */
+/* ----------------------------------------------------------------- Fonts -----------------------------------------------------------------  */
 @font-face {
     font-family: 'Roboto Regular';
     src: url(./fonts/Roboto/Roboto-Regular.ttf);
@@ -22,7 +22,7 @@
     font-family: 'Roboto Regular', sans-serif;
 }
 
-/* Sidebar */
+/* -----------------------------------------------------------------  Sidebar -----------------------------------------------------------------  */
 .sidebar {
     background-color: #1992d4; /* blue */
     color: white;
@@ -69,13 +69,15 @@
     font-size: 1.2rem;
 }
 
-/* Header */
+/* -----------------------------------------------------------------  Header -----------------------------------------------------------------  */
 .header {
     background-color: white;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1.7fr 1fr;
 }
+
+/* Header top left */
 
 .header-top-left {
     display: flex;
@@ -89,8 +91,14 @@
     height: auto;
 }
 
+/* Header top right */
+
 .header-top-right {
-    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 5rem;
 }
 
 #search {
@@ -108,8 +116,14 @@
 }
 
 .bell-ring {
-    width: 5%;
+    width: 1.5rem;
     height: auto;
+}
+
+.icon-small {
+    width: 2.5rem;
+    height: auto;
+    border-radius: 50px;
 }
 
 /* Main content */
