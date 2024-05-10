@@ -25,7 +25,27 @@
 
 /* Sidebar */
 .sidebar {
-    background-color: #a7ffeb;
+    background-color: #1992d4; /* blue */
+    color: white;
+    grid-column: 1;
+    grid-row: span 2;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+    margin-top: 1rem;;
+    margin-left: 1rem;
+}   
+
+.dashboard > img {
+    width: 10%;
+    height: auto;
 }
 
 /* Header */
