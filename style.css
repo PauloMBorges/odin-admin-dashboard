@@ -91,7 +91,6 @@
 
 #search {
     border: none;
-    outline: none;
     font-size: 1rem;
     border-radius: 16px;
     width: 80%;
@@ -99,6 +98,10 @@
     padding: 10px;
 }
 
+#search:focus {
+    outline: none;
+    border: 2px solid black;
+}
 
 /* Main content */
 .main-content {
