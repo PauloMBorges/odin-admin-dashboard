@@ -15,9 +15,12 @@
 
 /* General styling */
 
+html,
 body{
-    height: 100vh;
-    width: 100vw;
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   overflow-x: hidden;
 }
 
 .container {
@@ -25,6 +28,7 @@ body{
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
     height: 100vh;
+    width: 100vw;
     font-family: 'Roboto Regular', sans-serif;
 }
 
@@ -192,7 +196,7 @@ body{
 .main-right {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto 1fr;
 }
 
 .project-icon {
@@ -206,7 +210,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 2rem 1rem;
+    padding: 2rem;
     border-left: 8px solid #f0b429; /* yellow border on the left */ 
     height: 100%;  
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -223,24 +227,22 @@ body{
     align-items: flex-end;
     gap: 2rem;
 }
-
+.card-text-container {
+    font-size: 1.21rem;
+}
 #cards-grey-text {
     color: darkslategrey;
     margin-top: 0.3rem;
 }
 
-/*
 
+/* Announcement container */
 .announcement-card {
     background-color: white;
-    border-radius: 12px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    margin: 10px 0;
     padding: 20px;
-}
-.announcement-card h4, .announcement-card p {
-    margin: 5px 0;
-    font-size: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 2rem;
 }
 
 .announcement-card #middle {
@@ -251,21 +253,41 @@ body{
     border-bottom: 1px solid lightgrey;
 }
 
-.announcement-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
-    gap: 15px; 
-}
-*/
-
-.announcement-card {
-    background-color: white;
+.announcement-block {
+    padding: 0.5rem;
 }
 
+/* Trending container */
 .trending-card {
     background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 2rem;
+}
+
+.announcement-block, .user-block {
+    margin-bottom: 1rem;
+}
+
+/* Last child should not have a bottom margin */
+.announcement-block:last-child, .user-block:last-child {
+    margin-bottom: 0;
 }
 
 .user-block {
     display: flex;
+    align-items: center;
+    font-size: 1rem;
+    gap: 1rem;
+}
+
+.user > p {
+    margin-bottom: 0.1rem;
+}
+
+.announcement-container,
+.trending-container {
+    margin-left: 0.5rem;
+    margin-right: 2rem;
 }
