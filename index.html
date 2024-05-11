@@ -87,7 +87,7 @@
                         <div class="project-card">
                             <div class="card-text-container">
                                 <h3>Super Cool Project</h3>
-                                <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                                <p id="cards-grey-text">Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
                             </div>
                             <div class="card-icon-container">
                                 <img src="./images/star-plus-outline.svg" alt="" class="project-icon">
@@ -100,7 +100,7 @@
                         <div class="project-card">
                             <div class="card-text-container">
                                 <h3>Less Cool Project</h3>
-                                <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pallentesque lacus.</p>
+                                <p id="cards-grey-text">Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pallentesque lacus.</p>
                             </div>
                             <div class="card-icon-container">
                                 <img src="./images/star-plus-outline.svg" alt="" class="project-icon">
@@ -126,7 +126,7 @@
                         <div class="project-card">
                             <div class="card-text-container">
                                 <h3>Easy Peasy App</h3>
-                                <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
+                                <p id="cards-grey-text">Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
                             </div>
                             <div class="card-icon-container">
                                 <img src="./images/star-plus-outline.svg" alt="" class="project-icon">
@@ -139,7 +139,7 @@
                         <div class="project-card">
                             <div class="card-text-container">
                                 <h3>Ad Blocker</h3>
-                                <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendretit felis. Aliquam sed malesuada eros.</p>
+                                <p id="cards-grey-text">Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendretit felis. Aliquam sed malesuada eros.</p>
                             </div>
                             <div class="card-icon-container">
                                 <img src="./images/star-plus-outline.svg" alt="" class="project-icon">
@@ -152,7 +152,7 @@
                         <div class="project-card">
                             <div class="card-text-container">
                                 <h3>Monkey Maker</h3>
-                                <p>Praesent convallis, libero quis congue elementum, nunc faucibus sapien, ac scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.</p>
+                                <p id="cards-grey-text">Praesent convallis, libero quis congue elementum, nunc faucibus sapien, ac scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.</p>
                             </div>
                             <div class="card-icon-container">
                                 <img src="./images/star-plus-outline.svg" alt="" class="project-icon">
@@ -166,24 +166,56 @@
         
             <div class="main-right">
                 <div class="announcement-container">
-                    <h2 class="project-title">Annoucements</h2>
+                    <h2 class="project-title">Announcements</h2>
                     <div class="announcement-card">
-                        <div class="announcement-block">
+                        <div class="announcement-block" id="top">
                             <h4>Site Maintenance</h4>
-                            <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendretit sodales congue...</p>
+                            <p id="cards-grey-text">Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendretit sodales congue...</p>
                         </div>
-                        <div class="announcement-block" #middle>
+                        <div class="announcement-block" id="middle">
                             <h4>Community Share Day</h4>
-                            <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...</p>
+                            <p id="cards-grey-text">Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...</p>
                         </div>
-                        <div class="announcement-block">
+                        <div class="announcement-block" id="bottom">
                             <h4>Updated Privacy Policy</h4>
-                            <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
+                            <p id="cards-grey-text">Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
                         </div>
                     </div>
                 </div>
 
-                <p>testTrending</p>
+                <div class="trending-container">
+                    <h2 class="project-title">Trending</h2>
+                    <div class="trending-card">
+                        <div class="user-block">
+                            <img src="./images/man.png" alt="" class="icon-small">
+                            <div class="user">
+                                <p class="user-handle">@tegan</p>
+                                <p class="user-description">World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div class="user-block">
+                            <img src="./images/man.png" alt="" class="icon-small">
+                            <div class="user">
+                                <p class="user-handle">@morgan</p>
+                                <p class="user-description">Super Cool Project</p>
+                            </div>
+                        </div>
+                        <div class="user-block">
+                            <img src="./images/man.png" alt="" class="icon-small">
+                            <div class="user">
+                                <p class="user-handle">@kendall</p>
+                                <p class="user-description">Life Changing App</p>
+                            </div>
+                        </div>
+                        <div class="user-block">
+                            <img src="./images/man.png" alt="" class="icon-small">
+                            <div class="user">
+                                <p class="user-handle">@alex</p>
+                                <p class="user-description">No Traffic Maker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 

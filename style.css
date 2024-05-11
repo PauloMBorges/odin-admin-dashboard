@@ -14,6 +14,12 @@
 }
 
 /* General styling */
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -175,8 +181,6 @@
     grid-template-columns: 2.3fr 1fr;
 }
 
-
-
 .main-left {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -204,7 +208,7 @@
     justify-content: space-between;
     padding: 2rem 1rem;
     border-left: 8px solid #f0b429; /* yellow border on the left */ 
-    height: 95%;  
+    height: 100%;  
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
@@ -220,8 +224,48 @@
     gap: 2rem;
 }
 
-.card-text-container > p {
+#cards-grey-text {
     color: darkslategrey;
     margin-top: 0.3rem;
 }
 
+/*
+
+.announcement-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin: 10px 0;
+    padding: 20px;
+}
+.announcement-card h4, .announcement-card p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.announcement-card #middle {
+    border-bottom: 1px solid lightgrey;
+}
+
+.announcement-card #top {
+    border-bottom: 1px solid lightgrey;
+}
+
+.announcement-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 15px; 
+}
+*/
+
+.announcement-card {
+    background-color: white;
+}
+
+.trending-card {
+    background-color: white;
+}
+
+.user-block {
+    display: flex;
+}
