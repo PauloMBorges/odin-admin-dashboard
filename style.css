@@ -184,7 +184,7 @@
 }
 
 
-.main-left > p,
+.main-block,
 .main-right > p{
     border: 1px solid blue;
 }
