@@ -185,10 +185,6 @@
     gap: 1.5rem;
 }
 
-.main-right > p{
-    border: 1px solid blue;
-}
-
 .main-right {
     display: grid;
     grid-template-columns: 1fr;
@@ -228,3 +224,4 @@
     color: darkslategrey;
     margin-top: 0.3rem;
 }
+
