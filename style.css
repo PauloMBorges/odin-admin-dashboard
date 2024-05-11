@@ -171,20 +171,20 @@
 /* ----------------------------------------------------------------- Main content ----------------------------------------------------------------- */
 .main-content {
     background-color: #e2e8f0;
-
     display: grid;
-    grid-template-columns: 2.3fr 1fr
+    grid-template-columns: 2.3fr 1fr;
 }
+
+
 
 .main-left {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    border: 1px solid blue;
+    margin: 1rem;
+    gap: 1.5rem;
 }
 
-
-.main-block,
 .main-right > p{
     border: 1px solid blue;
 }
@@ -193,4 +193,38 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
+}
+
+.project-icon {
+    width: 1.5rem;
+    height: auto;
+}
+
+.project-card {
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+    border-left: 8px solid #f0b429; /* yellow border on the left */ 
+    height: 95%;  
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.project-title {
+    margin: 1rem;
+    margin-top: 3rem;
+}
+
+.card-icon-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 2rem;
+}
+
+.card-text-container > p {
+    color: darkslategrey;
+    margin-top: 0.3rem;
 }
