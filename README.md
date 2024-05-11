@@ -1,6 +1,6 @@
 # Odin Admin Dashboard
 <p align="center">
-    <img src=./images/screenshot.png" alt="Page Screenshot">
+    <img src="./images/screenshot.png" alt="Page Screenshot">
     <br>
     <em>The main view of the admin dashboard</em>
 </p>
