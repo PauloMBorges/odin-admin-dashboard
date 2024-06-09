@@ -11,9 +11,12 @@ This project is part of The Odin Project's [Intermediate HTML and CSS Course](ht
 
 The Admin Dashboard project is a simulation of a typical admin panel interface, showcasing various UI components such as side navigation, search bar, user cards, and data summaries. The main focus is to practice CSS Grid layouts along with complementary CSS techniques for the design.
 
-
 ## Technologies
 
 - HTML5
 - CSS3
 - CSS (CSSGrid)
+
+## Website Link
+
+Visit the live website [here](https://paulomborges.github.io/odin-admin-dashboard/).
